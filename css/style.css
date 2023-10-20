@@ -50,6 +50,15 @@ img {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.header {
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
 .logo {
         font-family: Raleway;
         font-size: 26px;
@@ -89,6 +98,14 @@ img {
         line-height: 1.36;
         letter-spacing: 2.64px;
         text-transform: uppercase;
+        padding-top: 200px;
+         padding-bottom: 200px;
+}
+.hero-contant-title {
+    color: var(--add-white);
+        font-size: 44px;
+        font-weight: 900;
+        line-height: 1.36;
 }
 .hero-contant-btn {
     color: var(--add-white);
@@ -97,6 +114,10 @@ img {
         font-weight: 700;
         line-height: 1.87;
         letter-spacing: 0.96px;
+}
+.advantages {
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 .advantages-item-title {
     color: var(--main-color);
@@ -109,10 +130,17 @@ img {
         line-height: 1.71;
         letter-spacing: 0.42px;
 }
+.work {
+    padding-bottom: 94px;
+}
 .work-title {
     color: var(--main-color);
         font-size: 36px;
         letter-spacing: 1.08px;
+}
+.workers {
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 .workers-title {
     color: var(--main-color);
@@ -139,6 +167,8 @@ img {
 }
 .footer {
     background-color: var(--main-bd-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 .footer-link {
     color: var(--add-color);
@@ -191,6 +221,10 @@ img {
     font-size: 16px;
         line-height: 1.87;
         letter-spacing: 0.48px;
+}
+.projects {
+    padding-top: 34px;
+        padding-bottom: 94px;
 }
 
 
