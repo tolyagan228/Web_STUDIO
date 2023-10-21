@@ -115,6 +115,9 @@ img {
         line-height: 1.87;
         letter-spacing: 0.96px;
 }
+.hero-contant-btn:hover {
+    cursor: pointer;
+}
 .advantages {
     padding-top: 94px;
     padding-bottom: 94px;
@@ -129,6 +132,10 @@ img {
         font-size: 14px;
         line-height: 1.71;
         letter-spacing: 0.42px;
+}
+.advantages-title {
+    color: var(--main-color)
+        font-size: 14px;
 }
 .work {
     padding-bottom: 94px;
@@ -152,6 +159,12 @@ img {
         text-align: center;
         letter-spacing: 0.48px;
         font-size: 16px;
+}
+.workers-item-title {
+    color: var(--main-color);
+        text-align: center;
+        font-size: 16px;
+        letter-spacing: 0.48px;
 }
 .contact-address {
     color: var(--add-white);
