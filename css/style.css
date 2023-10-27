@@ -54,23 +54,20 @@ img {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
-    display: flex;
-        align-items: center;
-        gap: 50px;
 }
 .header {
     padding-top: 24px;
     padding-bottom: 25px;
 }
-.header .conatiner {
+.header .container {
     display: flex;
-    justify-content: space-between;
-    gap: 92px;
+    align-items: center;
 }
 .logo {
         font-family: Raleway;
         font-size: 26px;
         letter-spacing: 0.78px;
+        margin-right: 93px;
 }
 .logo-accent {
     color: var(--accent-color);
@@ -158,19 +155,29 @@ img {
 .work {
     padding-bottom: 94px;
 }
+.work-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
 .work-title {
     color: var(--main-color);
         font-size: 36px;
         letter-spacing: 1.08px;
+        text-align: center;
+        padding-bottom: 50px;
 }
 .workers {
     padding-top: 94px;
     padding-bottom: 94px;
+    background: #F5F4FA;
 }
 .workers-title {
     color: var(--main-color);
         font-size: 36px;
         letter-spacing: 1.08px;
+        text-align: center;
+        padding-bottom: 50px;
 }
 .workers-subtitle {
     color: var(--add-color);
@@ -183,6 +190,11 @@ img {
         text-align: center;
         font-size: 16px;
         letter-spacing: 0.48px;
+}
+.workers-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
 }
 .contact-address {
     color: var(--add-white);
@@ -241,6 +253,11 @@ img {
     background-color: var(--accent-color);
     cursor: pointer;
 }
+.filter-list {
+    display: flex;
+        justify-content: center;
+        gap: 8px;
+}
 .project-item-title {
     color: var(--main-color);
         font-size: 18px;
@@ -254,8 +271,8 @@ img {
         letter-spacing: 0.48px;
 }
 .projects {
-    padding-top: 34px;
-        padding-bottom: 94px;
+    padding-top: 94px;
+        padding-bottom: 50px;
 }
 
 
