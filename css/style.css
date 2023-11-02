@@ -274,3 +274,9 @@ img {
     padding-top: 94px;
         padding-bottom: 50px;
 }
+.projects-list {
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+        gap: 30px;
+}
