@@ -99,6 +99,9 @@ img {
     color: var(--accent-color);
     cursor: pointer;
 }
+.contacts-list-item:not(:last-child) {
+    margin-bottom: 9px;
+}
 .hero-contant {
     color: var(--add-white);
     background-color: var(--main-bd-color);
@@ -111,11 +114,12 @@ img {
         padding-top: 200px;
          padding-bottom: 200px;
 }
-.hero-contant-title {
+.hero-contant-title{
     color: var(--add-white);
         font-size: 44px;
         font-weight: 900;
         line-height: 1.36;
+        margin-bottom: 30px;
 }
 .hero-contant-btn {
     color: var(--add-white);
@@ -231,6 +235,7 @@ img {
         font-size: 26px;
         letter-spacing: 0.78px;
     color: var(--add-white);
+    margin-bottom: 20px;
 }
 .address-link {
     color: var(--add-white);
@@ -274,8 +279,8 @@ img {
     padding-top: 94px;
         padding-bottom: 50px;
 }
-.projects-list {
-    padding-top: 50px;
+.projects-list {Ы
+    margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
         gap: 30px;
