@@ -106,11 +106,6 @@ img {
     color: var(--add-white);
     background-color: var(--main-bd-color);
         text-align: center;
-        font-size: 44px;
-        font-weight: 900;
-        line-height: 1.36;
-        letter-spacing: 2.64px;
-        text-transform: uppercase;
         padding-top: 200px;
          padding-bottom: 200px;
 }
@@ -120,6 +115,8 @@ img {
         font-weight: 900;
         line-height: 1.36;
         margin-bottom: 30px;
+        text-transform: uppercase;
+            letter-spacing: 2.64px;
 }
 .hero-contant-btn {
     color: var(--add-white);
@@ -269,6 +266,12 @@ img {
         line-height: 2.00;
         letter-spacing: 1.08px;
 }
+.projects-list {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
 .project-subtitle {
     color: var(--add-color);
     font-size: 16px;
@@ -278,10 +281,4 @@ img {
 .projects {
     padding-top: 94px;
         padding-bottom: 50px;
-}
-.projects-list {Ы
-    margin-top: 50px;
-    display: flex;
-    flex-wrap: wrap;
-        gap: 30px;
 }
