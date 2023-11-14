@@ -51,7 +51,7 @@ img {
     overflow: hidden;
 }
 .container {
-    max-width: 1200px;
+    width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
 }
@@ -73,13 +73,8 @@ img {
     color: var(--accent-color);
 }
 .nav-list {
-    color: var(--main-color);
         display: flex;
             gap: 50px;
-}
-.nav-list:hover {
-    color: var(--accent-color);
-    cursor: pointer;
 }
 .nav-link {
     color: var(--main-color);
@@ -149,6 +144,7 @@ img {
     color: var(--main-color);
         font-size: 14px;
         letter-spacing: 0.42px;
+        flex-basis: calc((100% - 3*30px) / 4);  
 }
 .advantages-subtitle {
     color: var(--add-color);
@@ -252,11 +248,16 @@ img {
 }
 .filter-btn {
     color: var(--main-color);
+    min-width: 73px;
+    padding: 6px 22px;
         font-family: Roboto;
         font-size: 16px;
         font-weight: 500;
         line-height: 1.63;
         letter-spacing: 0.48px;
+        background-color: #F5F4FA;
+        border-radius: 4px;
+        border-color: transparent;
 }
 .filter-btn:hover {
     color: #FFFFFF;
@@ -267,6 +268,10 @@ img {
     display: flex;
         justify-content: center;
         gap: 8px;
+}
+.projects {
+    padding-top: 94px;
+    padding-bottom: 50px;
 }
 .project-item-title {
     color: var(--main-color);
@@ -280,13 +285,12 @@ img {
     flex-wrap: wrap;
     gap: 30px;
 }
+.project-item {
+    flex-basis: calc((100% - 2*30px ) / 3);
+}
 .project-subtitle {
     color: var(--add-color);
     font-size: 16px;
         line-height: 1.87;
         letter-spacing: 0.48px;
-}
-.projects {
-    padding-top: 94px;
-        padding-bottom: 50px;
 }
