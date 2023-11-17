@@ -153,6 +153,22 @@ img {
     height: 120px;
     flex-shrink: 0;
     background-color: #F5F4FA;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: block;
+    margin-bottom: 30px;
+}
+.advantages-item-title:nth-child(1)::before {
+    background-image: url(../images/group_svg1_svg.svg);
+}
+.advantages-item-title:nth-child(2)::before {
+    background-image: url(../images/clock_svg2_svg.svg);
+}
+.advantages-item-title:nth-child(3)::before {
+    background-image: url(../images/diagram_svg3_svg.svg);
+}
+.advantages-item-title:nth-child(4)::before {
+    background-image: url(../images/astronaut_svg4_svg.svg);
 }
 .advantages-subtitle {
     color: var(--add-color);
@@ -294,7 +310,7 @@ img {
     gap: 30px;
 }
 .project-item {
-    flex-basis: calc((100% - 2*30px ) / 3);
+    flex-basis: calc((100% - 60px) / 3);
 }
 .project-subtitle {
     color: var(--add-color);
