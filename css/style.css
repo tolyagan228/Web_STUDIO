@@ -63,11 +63,15 @@ img {
     display: flex;
     align-items: center;
 }
-.logo {
+.logo-link {
         font-family: Raleway;
         font-size: 26px;
         letter-spacing: 0.78px;
         margin-right: 93px;
+        color: #000;
+}
+.logo-link {
+    text-decoration: none;
 }
 .logo-accent {
     color: var(--accent-color);
@@ -128,6 +132,8 @@ img {
         font-weight: 700;
         line-height: 1.87;
         letter-spacing: 0.96px;
+        border-radius: 4px;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 .hero-contant-btn:hover {
     cursor: pointer;
@@ -151,7 +157,7 @@ img {
     content: '';
     width: 270px;
     height: 120px;
-    flex-shrink: 0;
+    border-radius: 4px;
     background-color: #F5F4FA;
     background-position: center;
     background-repeat: no-repeat;
@@ -213,12 +219,18 @@ img {
         text-align: center;
         letter-spacing: 0.48px;
         font-size: 16px;
+        padding-bottom: 30px;
 }
 .workers-item-title {
     color: var(--main-color);
         text-align: center;
         font-size: 16px;
         letter-spacing: 0.48px;
+        padding-top: 30px;
+        padding-bottom: 10px;
+}
+.workers-item {
+    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
 .workers-list {
     display: flex;
@@ -255,11 +267,13 @@ img {
 .contact-address {
     font-style: normal;
 }
-.footer-logo {
+.footer-logo-link {
         font-family: Raleway;
         font-size: 26px;
         letter-spacing: 0.78px;
     color: var(--add-white);
+}
+.footer-logo {
     margin-bottom: 20px;
 }
 .address-link {
@@ -283,10 +297,11 @@ img {
         border-radius: 4px;
         border-color: transparent;
 }
-.filter-btn:hover {
+.filter-btn:hover, .filter-btn:focus {
     color: #FFFFFF;
     background-color: var(--accent-color);
     cursor: pointer;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
 }
 .filter-list {
     display: flex;
@@ -308,6 +323,17 @@ img {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
+}
+.project-link {
+    text-decoration: none;
+    display: block;
+}
+.project-link:focus, .project-link:hover {
+    box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+}
+.div-project {
+    padding: 20px 24px ;
+    border: 1px solid #EEE;
 }
 .project-item {
     flex-basis: calc((100% - 60px) / 3);
