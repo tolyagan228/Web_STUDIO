@@ -270,10 +270,10 @@ img {
     justify-content: center;
     gap: 30px;
 }
-.workers-icon {
+.workers-social-list {
     display: flex;
     justify-content: center;
-    gap: 22px;
+    gap: 10px;
 }
 .workers-link {
     border-radius: 50%;
@@ -332,13 +332,52 @@ img {
     display: inline-block;
     margin-bottom: 20px;
 }
+.footer .container {
+    display: flex;
+}
 .address-link {
     color: var(--add-white);
     text-decoration: none;
+    margin-right: 70px;
 }
 .address-link:hover {
     color: var(--accent-color);
         cursor: pointer;
+}
+.stydio-subtitle {
+    color: #FFF;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 0.42px;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 20px;
+        text-align: left;
+}
+.stydio-list-icon {
+    fill: #FFFFFF;
+}
+.stydio-link {
+    border-radius: 50%;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.10);
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+}
+.stydio-link:hover,
+.stydio-link:focus {
+    background-color: var(--accent-color);
+    cursor: pointer;
+}
+.studio-soc-list {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
 }
 .filter-btn {
     color: var(--main-color);
