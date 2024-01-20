@@ -16,28 +16,23 @@ p {
     margin-top: 0;
     margin-bottom: 0;
 }
-
 ul {
     margin-top: 0;
     margin-bottom: 0;
     padding-left: 0;
 }
-
 img {
     display: block;
     max-width: 100%;
     height: auto;
 }
-
 .list {
     list-style: none;
     padding: 0;
 }
-
 .link {
     text-decoration: none;
 }
-
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -229,6 +224,25 @@ img {
         text-align: center;
         margin-bottom: 50px;
 }
+.work-item {
+    position: relative;
+}
+.work-text {
+    color: #FFF;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 0.42px;
+        text-transform: uppercase;
+        background: rgba(47, 48, 58, 0.80);
+        position: absolute;
+        text-align: center;
+        display: inline;
+        width: 370px;
+        padding: 27px 0;
+        bottom: 0px;
+}
 .workers {
     padding-top: 94px;
     padding-bottom: 94px;
@@ -416,6 +430,62 @@ img {
 }
 .soc-div {
     padding-top: 10px;
+}
+.footer-form {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+}
+.footer-form-text {
+    color: var(--add-white);
+        font-size: 14px;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 0.42px;
+        text-transform: uppercase;
+        padding-bottom: 20px;
+}
+.footer-form-input {
+    color: rgba(255, 255, 255, 0.60);
+        line-height: 20px;
+        letter-spacing: 0.48px;
+        background: transparent;
+        border-radius: 4px;
+            border: 1px solid rgba(255, 255, 255, 0.30);
+            background: rgba(33, 150, 243, 0.00);
+            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+            padding: 15px;
+            width: 358px;
+}
+.footer-form-btn {
+    color: var(--add-white);
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.96px;
+    border-radius: 4px;
+        background: var(--accent-color);
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+        border: none;
+        /* padding: 10px 62px 10px 28px; */
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 28px;
+        gap: 10px;
+        padding-right: 28px;
+}
+.footer-form-btn::after {
+    content: "";
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+    background-image: url(../images/telegram_new.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.footer-form-div {
+    margin-left: 93px;
 }
 .filter-btn {
     color: var(--main-color);
