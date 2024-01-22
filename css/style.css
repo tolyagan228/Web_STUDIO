@@ -87,6 +87,9 @@ img {
     color: var(--accent-color);
     cursor: pointer;
 }
+.contact-div {
+    margin-right: 70px;
+}
 .contact-list{
     color: var(--add-color);
         font-size: 14px;
@@ -159,6 +162,7 @@ img {
 }
 .hero-contant-btn:hover {
     cursor: pointer;
+    opacity: 0.7;
 }
 .advantages {
     padding-top: 94px;
@@ -238,7 +242,6 @@ img {
         background: rgba(47, 48, 58, 0.80);
         position: absolute;
         text-align: center;
-        display: inline;
         width: 370px;
         padding: 27px 0;
         bottom: 0px;
@@ -390,7 +393,6 @@ img {
 .address-link {
     color: var(--add-white);
     text-decoration: none;
-    margin-right: 70px;
 }
 .address-link:hover {
     color: var(--accent-color);
@@ -443,7 +445,7 @@ img {
         line-height: normal;
         letter-spacing: 0.42px;
         text-transform: uppercase;
-        padding-bottom: 20px;
+        margin-bottom: 20px;
 }
 .footer-form-input {
     color: rgba(255, 255, 255, 0.60);
@@ -452,10 +454,14 @@ img {
         background: transparent;
         border-radius: 4px;
             border: 1px solid rgba(255, 255, 255, 0.30);
-            background: rgba(33, 150, 243, 0.00);
             box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
             padding: 15px;
             width: 358px;
+}
+.footer-form-input:hover,
+.footer-form-input:focus {
+    border-color: #2196F3;
+    outline: none;
 }
 .footer-form-btn {
     color: var(--add-white);
@@ -468,7 +474,6 @@ img {
         background: var(--accent-color);
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
         border: none;
-        /* padding: 10px 62px 10px 28px; */
         padding-top: 10px;
         padding-bottom: 10px;
         padding-left: 28px;
@@ -484,8 +489,13 @@ img {
     background-repeat: no-repeat;
     background-position: center;
 }
+.footer-form-btn:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
 .footer-form-div {
     margin-left: 93px;
+    padding-top: 10px;
 }
 .filter-btn {
     color: var(--main-color);
