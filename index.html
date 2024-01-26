@@ -58,7 +58,7 @@
           <h1 class="hero-contant-title">
             Ефективні рішення для<br />вашого бізнесу
           </h1>
-          <button type="button" class="hero-contant-btn">
+          <button type="button" class="hero-contant-btn" data-modal-open>
             Замовити послугу
           </button>
         </div>
@@ -290,5 +290,50 @@
           </div>
       </div>
     </footer>
+        <div class="backdrop is-hidden" data-modal>
+    <div class="modal">
+      <button type="button" class="btn-review" data-modal-close>
+        <svg width="20" height="20">
+            <use
+              href="./images/symbol-defs.svg#icon-close-black-18dp-2-1"
+            ></use>
+          </svg>
+      </button>
+      <h3 class="hero-title">Залиште свої дані, ми вам передзвонимо</h3>
+      <form class="form-modal">
+     <div class="form-div">
+        <label for="name" class="form-label">Ім'я
+        <input type="text" id="name" name="name" class="form-input">
+        <svg width="18" height="18" class="modal-icon">
+            <use
+              href="./images/symbol-defs.svg#icon-person-black"
+            ></use>
+          </svg>
+          </label>
+        <label for="phone1" class="form-label">Телефон
+        <input type="tel" id="phone" name="phone" class="form-input">
+        <svg width="18" height="18" class="modal-icon">
+            <use
+              href="./images/symbol-defs.svg#icon-phone-black"
+            ></use>
+          </svg>
+          </label>
+        <label for="email" class="form-label">Пошта
+        <input type="email" id="email" name="email" class="form-input">
+        <svg width="18" height="18" class="modal-icon">
+            <use
+              href="./images/symbol-defs.svg#icon-email-black"
+            ></use>
+          </svg>
+          </label>
+        <label for="comment" class="form-label">Коментар</label>
+        <textarea id="comment" name="comment" class="input-textarea">Введіть текст</textarea>
+        <label for="text" class="text-modal"><input type="checkbox">Погоджуюся з розсилкою та приймаю<a href="" class="modal-link">Умови договору</a></label>
+        <button type="button" class="modal-btn">Відправити</button>
+    </div>
+    </form>
+    </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
