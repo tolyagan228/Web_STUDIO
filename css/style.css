@@ -497,7 +497,7 @@ img {
     margin-left: 93px;
     padding-top: 10px;
 }
-.hero-title {
+.order-title {
     color: #212121;
         text-align: center;
         font-family: Roboto;
@@ -519,7 +519,6 @@ img {
     line-height: normal;
     letter-spacing: 0.12px;
     position: relative;
-    margin-bottom: 4px;
     margin-top: 10px;
 }
 .input-textarea {
@@ -530,8 +529,12 @@ img {
         font-weight: 400;
         line-height: normal;
         letter-spacing: 0.12px;
+        padding: 12px 16px 12px 16px;
+        border-radius: 4px;
+         border: 1px solid rgba(33, 33, 33, 0.20);
+         padding-top: 12px;
+         padding-left: 16px;
     width: 448px;
-    height: 120px;
     resize: none;
 }
 .form-input {
@@ -539,6 +542,13 @@ img {
     border: 1px solid rgba(33, 33, 33, 0.20);
     width: 448px;
     height: 40px;
+    margin-top: 4px;
+    padding-left: 42px;
+    outline: none;
+}
+.form-input:hover, 
+.form-input:focus, .input-textarea:hover {
+    border-color: var(--accent-color);
 }
 .backdrop {
     position: fixed;
@@ -595,13 +605,24 @@ img {
             box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
             padding: 10px 52px 10px 52px;
             border: none;
-            margin: 30px 113px;
+            display: block;
+            margin: 0 auto;
     }
+    .modal-btn:hover {
+                cursor: pointer;
+                opacity: 0.7;
+     }
     .modal-icon {
         position: absolute;
         display: flex;
         align-items: center;
+        bottom: 11px;
+        left: 12px;
     }
+        .form-input:hover + .modal-icon,
+        .form-input:focus + .modal-icon{
+            fill: var(--accent-color);
+        }
     .text-modal {
         color: #757575;
             font-family: Roboto;
@@ -613,7 +634,9 @@ img {
             letter-spacing: 0.42px;
             display: flex;
             align-items: center;
-            margin: 20px;
+            justify-content: center;
+            padding-top: 20px;
+            margin-bottom: 30px;
             gap: 8px;
     }
     .modal-link {
@@ -625,6 +648,9 @@ img {
             line-height: 24px;
             letter-spacing: 0.42px;
             text-decoration-line: underline;
+    }
+    .checkbox-btn {
+    /* fill: #212121; */
     }
 .filter-btn {
     color: var(--main-color);
